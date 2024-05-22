@@ -1,4 +1,2 @@
-'''yaml
 runtime python:3.9
 start python mybot.py
-'''
