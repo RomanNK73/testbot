@@ -1,3 +1,6 @@
 runtime: python:3.9
-startCommand: python mybot.py
-
+dependencies:
+  - telebot
+  - groq
+working_directory: /app
+start: python mybot.py
