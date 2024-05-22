@@ -2,4 +2,5 @@ runtime: python:3.9
 dependencies:
   - telebot
   - groq
+working_directory: /app
 start: python mybot.py
