@@ -1,2 +1,2 @@
 runtime python:3.9
-start python mybot.py
+start: python mybot.py
