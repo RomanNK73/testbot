@@ -1,4 +1,5 @@
-'''yaml
-runtime python:3.9
-start python mybot.py
-'''
+runtime: python:3.9
+dependencies:
+  - telebot
+  - groq
+start: python mybot.py
